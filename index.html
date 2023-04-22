@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A breif description">
+    <meta name="author" content="hafizakbar.tech">
+
+    <meta property="og:title" content="Our Menu">
+    <meta property="og:type"  content="website">
+    <meta property="og:image" content="logo.png">
+    <meta property="og:url"   content="https://littlelemon/">
+    <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Little Lemon">
+
+    <title>Little Lemon</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">Location</a></li>
+            <li><a href="">Manu</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Sign up</h1>
+        <form action="">
+            <div>
+                <label for="user_first_name">First Name</label><br>
+                <input type="text" id="user_first_name" name="user_first_name">
+            </div>
+            <div>
+                <label for="user_last_name">Last Name</label><br>
+                <input type="text" id="user_last_name" name="user_last_name">
+            </div>
+            <div>
+                <label for="user_email">E mail</label><br>
+                <input type="email" id="user_email" name="user_email" required>
+            </div>
+            <div>
+                <label for="user_password">Password</label><br>
+                <input type="password" id="user_password" name="user_password" minlength="8">
+            </div>
+            <div>
+                <label for="user_repeat_password">Confirm Password</label><br>
+                <input type="password" id="user_repeat_password" name="user_repeat_password" minlength="8">
+            </div><br>
+            <div>
+                <button type="submit">Sign up</button>
+            </div>
+        </form>
+        <form action="">
+            <fieldset id="size">
+                <label>
+                    <input type="radio" value="2" name="size"> 2-person table
+                </label>
+                <label>
+                    <input type="radio" value="4" name="size" checked> 4-person table
+                </label>
+                <label>
+                    <input type="radio" value="6" name="size"> 6-person table
+                </label>
+            </fieldset>
+            <fieldset id="location">
+                <label>
+                    <input type="radio" value="indoors" name="location" checked> Indoor
+                </label>
+                <label>
+                    <input type="radio" value="outdoors" name="location"> Outdoor
+                </label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
